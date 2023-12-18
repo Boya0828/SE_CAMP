@@ -5,6 +5,7 @@
 <head>
     <title> Workshop HTML-FORM</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="mystyle.css"/>
 
 </head>
 <style>
@@ -16,11 +17,11 @@
       
     }
     </style>
-<body style="margin-left: 500px;" style="margin-bottom: 1000px;"  >
+<body  >
     <form action="#">
         <fieldset style="width:50%;" >
             <legend style="font-size: 200%;">
-                
+            
                 Workshop HTML-FORM
             </legend>
             <table>
@@ -37,16 +38,16 @@
 
                 <tr style="font-size: large;">
                     <td><label>วัน/เดือน/ปีเกิด</label></td>
-                    <td><input type="date"></td>
+                    <td> <input type="date"/></td>  
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>อายุ</td>
+                    <td><label>อายุ</label></td>
                     <td><input type="number"></td>
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>เพศ</td>
+                    <td><label>เพศ</label></td>
                     <td>
                         <input id="male radio" type="radio" name="same_radio" />
                         <label for="male radio">ชาย</label>
@@ -56,17 +57,17 @@
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>รูป</td>
+                    <td><label>รูป</label></td>
                     <td><input type="file"></td>
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>ที่อยู่</td>
+                    <td><label>ที่อยู่</label></td>
                     <td><textarea rows="4" placeholder="กรุณาป้อนข้อมูล"></textarea></td>
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>สีที่ชอบ</td>
+                    <td><label>สีที่ชอบ</label></td>
 
                     <td>
                         <select name="colour" id="colour" size="large">
@@ -79,7 +80,7 @@
                 </tr>
 
                 <tr style="font-size: large;">
-                    <td>แนวเพลงที่ชอบ</td>
+                    <td><label>แนวเพลงที่ชอบ</label></td>
                     <td>
                         <input id="life radio" type="radio" name="same_radio" />
                         <label for="life radio">เพื่อชีวิต</label>
@@ -91,20 +92,22 @@
                 </tr>
 
                 <tr style="font-size: large;">
-                    <br>
-                    <td><br><input type="checkbox">ยินยอมให้เก็บข้อมูล</td>
+                    <td>
+                        <br>
+                        <input type="checkbox">ยินยอมให้เก็บข้อมูล
+                    </td>
                 </tr>
 
                 <tr> 
                     <td>
-                        <br>
+                        
                         <br>
                         <input type="reset" value="Reset" style="background-color:indianred;" style="size: 200px;">
                     </td>
                     <td>
+                        
                         <br>
-                        <br>
-                        &emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;
                         <input type="submit" value="submit" style="background-color: aquamarine;" style="color: black ;">
                     </td>
                 </tr>
