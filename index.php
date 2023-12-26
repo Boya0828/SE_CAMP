@@ -2,13 +2,12 @@
 
 <head>
     <meta charset="utf-8">
-    <?php $multi_x = 2; ?>
-    <?php $i = 1; ?>
-    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+    
 </head>
 <style>
-    head{
-        margin: 50px;
+    h1{
+        font-size:  25px;
+        
     }
     body{
         margin: 0;
@@ -38,10 +37,13 @@
 
 </style>
 <body>
+<?php $multi_x = 2; ?>
+    <?php $i = 1; ?>
 <div class="scroll-bg">
     <div class="scroll-div">
         <div class="scroll-object">
         <table>
+            <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
         <?php for  ($i = 1; $i <= 24; $i++) { ?>
                 <tr>
                     <td><?php echo $multi_x ?></td>
