@@ -42,7 +42,7 @@
     <div class="scroll-div">
         <div class="scroll-object">
         <table>
-            @for  ($i = 1; $i <= 24; $i++)
+        <?php for  ($i = 1; $i <= 24; $i++) { ?>
                 <tr>
                     <td><?php echo $multi_x ?></td>
                     <td> x </td>
@@ -50,7 +50,8 @@
                     <td> = </td>
                     <td><?php echo $multi_x * $i ?></td>
                 </tr>
-            @endfor
+                <?php } ?>
+            
         </table>
         </div>
     </div>
